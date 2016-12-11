@@ -1,0 +1,9 @@
+---
+applications:
+  - name: go-greeter-scs
+    instances: 1
+    memory: 64M
+    services:
+      - eurekaregistry
+    env:
+      GOPACKAGENAME: go-greeter-scs

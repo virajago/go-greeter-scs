@@ -1,0 +1,43 @@
+<instance>
+    <instanceId>id</instanceId>
+    <hostName>host</hostName>
+    <app>myapp</app>
+    <ipAddr>1.2.3.4</ipAddr>
+    <vipAddress>vip.address</vipAddress>
+    <secureVipAddress>secure.vip.address</secureVipAddress>
+    <status>UP</status>
+    <overriddenstatus>UNKNOWN</overriddenstatus>
+    <port enabled="true">80</port>
+    <securePort enabled="true">443</securePort>
+    <homePageUrl>home.page.url</homePageUrl>
+    <statusPageUrl>status.page.url</statusPageUrl>
+    <healthCheckUrl>health.check.url</healthCheckUrl>
+    <dataCenterInfo>
+        <name>MyOwn</name>
+        <metadata>
+            <hostname>dchost</hostname>
+            <public-hostname>dc.public.host</public-hostname>
+            <local-hostname>dc.local.host</local-hostname>
+            <public-ipv4>1.2.3.5</public-ipv4>
+            <local-ipv4>1.2.3.6</local-ipv4>
+            <availability-zone>az</availability-zone>
+            <instance-id>instance.id</instance-id>
+            <instance-type>instance.type</instance-type>
+            <ami-id>ami.id</ami-id>
+            <ami-launch-index>ami.launch.index</ami-launch-index>
+            <ami-manifest-path>ami.manifest.path</ami-manifest-path>
+        </metadata>
+    </dataCenterInfo>
+    <leaseInfo>
+        <renewalIntervalInSecs>30</renewalIntervalInSecs>
+        <durationInSecs>90</durationInSecs>
+        <registrationTimestamp>1468519783576</registrationTimestamp>
+        <lastRenewalTimestamp>1468519783577</lastRenewalTimestamp>
+        <evictionTimestamp>1468519783578</evictionTimestamp>
+        <serviceUpTimestamp>1468519783579</serviceUpTimestamp>
+    </leaseInfo>
+    <metadata>
+        <a>one</a>
+        <b>two</b>
+    </metadata>
+</instance>
